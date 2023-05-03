@@ -7,4 +7,4 @@ if ! which rustup > /dev/null; then
     source $HOME/.cargo/env
 fi
 
-cargo install cargo-watch
+cargo install cargo-binstall

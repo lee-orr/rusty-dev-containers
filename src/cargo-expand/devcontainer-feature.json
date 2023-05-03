@@ -1,8 +1,8 @@
 {
-    "name": "Cargo Watch",
-    "id": "cargo_watch",
+    "name": "Cargo Expand",
+    "id": "cargo_expand",
     "version": "0.0.1",
-    "description": "A feature to install cargo watch",
+    "description": "A feature to install cargo expand",
     "options": {
     },
     "installsAfter": [
