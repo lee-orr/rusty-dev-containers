@@ -1,7 +1,7 @@
 
-# My Favorite Color (color)
+# Cargo Watch Dev Container
 
-A feature to remind you of your favorite color
+A feature to install cargo watch
 
 ## Example Usage
 
