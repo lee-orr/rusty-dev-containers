@@ -1,15 +1,13 @@
 
-# Cargo Watch Dev Container
+# Rust wasm32_unknown_unknown (wasm32-unknown-unknown)
 
-A feature to install cargo watch
+A feature to install wasm32_unknown_unknown
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/color:1": {
-        "version": "latest"
-    }
+    "ghcr.io/lee-orr/rusty-dev-containers/wasm32-unknown-unknown:0": {}
 }
 ```
 
@@ -17,10 +15,10 @@ A feature to install cargo watch
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| favorite | Choose your favorite color. | string | red |
+
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lee-orr/rusty-dev-containers/blob/main/src/wasm32-unknown-unknown/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
