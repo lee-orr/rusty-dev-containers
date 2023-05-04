@@ -1,0 +1,12 @@
+{
+    "name": "wasm bindgen cli",
+    "id": "wasm-bindgen-cli",
+    "version": "0.0.1",
+    "description": "A feature to install wasm-bingen-cli",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}

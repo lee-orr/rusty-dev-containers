@@ -16,6 +16,8 @@ jobs:
           - cargo-watch
           - cargo-expand
           - cargo-binstall
+          - wasm32-unknown-unknown
+          - wasm-bindgen-cli
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -37,6 +39,8 @@ jobs:
           - cargo-watch
           - cargo-expand
           - cargo-binstall
+          - wasm32-unknown-unknown
+          - wasm-bindgen-cli
     steps:
       - uses: actions/checkout@v3
 
