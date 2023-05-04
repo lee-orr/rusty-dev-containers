@@ -21,6 +21,9 @@ jobs:
           - mprocs
           - bacon
           - zellij
+          - fermyon-spin
+          - wasmcloud
+          - helix
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -47,6 +50,9 @@ jobs:
           - mprocs
           - bacon
           - zellij
+          - fermyon-spin
+          - wasmcloud
+          - helix
     steps:
       - uses: actions/checkout@v3
 
