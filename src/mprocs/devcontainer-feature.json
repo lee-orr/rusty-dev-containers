@@ -1,0 +1,12 @@
+{
+    "name": "Mprocs",
+    "id": "mprocs",
+    "version": "0.0.1",
+    "description": "A feature to install mprocs",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}

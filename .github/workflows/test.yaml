@@ -18,6 +18,9 @@ jobs:
           - cargo-binstall
           - wasm32-unknown-unknown
           - wasm-bindgen-cli
+          - mprocs
+          - bacon
+          - zellij
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -41,6 +44,9 @@ jobs:
           - cargo-binstall
           - wasm32-unknown-unknown
           - wasm-bindgen-cli
+          - mprocs
+          - bacon
+          - zellij
     steps:
       - uses: actions/checkout@v3
 

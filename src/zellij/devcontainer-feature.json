@@ -1,0 +1,12 @@
+{
+    "name": "Zellij",
+    "id": "zellij",
+    "version": "0.0.1",
+    "description": "A feature to install zellij",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}

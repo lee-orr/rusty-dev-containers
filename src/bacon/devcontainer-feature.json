@@ -1,0 +1,12 @@
+{
+    "name": "Bacon",
+    "id": "bacon",
+    "version": "0.0.1",
+    "description": "A feature to install bacon",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}
