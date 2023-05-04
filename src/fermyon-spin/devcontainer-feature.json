@@ -1,6 +1,6 @@
 {
     "name": "Fermyon Spin",
-    "id": "fermyon spin",
+    "id": "fermyon-spin",
     "version": "0.0.1",
     "description": "A feature to install Fermyon Spin",
     "options": {

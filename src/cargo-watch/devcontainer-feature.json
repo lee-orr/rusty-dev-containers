@@ -1,6 +1,6 @@
 {
     "name": "Cargo Watch",
-    "id": "cargo_watch",
+    "id": "cargo-watch",
     "version": "0.0.1",
     "description": "A feature to install cargo watch",
     "options": {
