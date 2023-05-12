@@ -1,0 +1,12 @@
+{
+    "name": "cargo-nextest",
+    "id": "cargo-nextest",
+    "version": "0.0.1",
+    "description": "A feature to install cargo-nextest",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}
