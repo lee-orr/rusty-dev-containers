@@ -23,3 +23,4 @@ Helix | ghcr.io/lee-orr/rusty-dev-containers/helix:0 | Installs the [Helix](http
 | | **WASM Server Frameworks**| |
 | Fermyon Spin | ghcr.io/lee-orr/rusty-dev-containers/fermyon-spin:0 | Installs the [Spin CLI](https://developer.fermyon.com/spin/index), allowing building, testing and deploying for Spin-based WASM applications |
 | Wasmcloud | ghcr.io/lee-orr/rusty-dev-containers/wasmcloud:0 | Installs Wash - the CLI for [Wasmcloud](https://wasmcloud.com/docs/intro) - a platform for building wasm-based cloud environments. |
+| Cosmonic | ghcr.io/lee-orr/rusty-dev-containers/cosmonic:0 | Installs Cosmo - the CLI for [Cosmonic](cosmonic.com/) - a PaaS based on Wasmcloud. Note that it contains all the features provided by Wash, but with the capacity to automatically login to your cosmonic account & connect your dev environment to your constellation on their servers. |
