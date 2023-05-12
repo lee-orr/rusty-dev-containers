@@ -22,4 +22,4 @@ make install
 
 bash -c "$(curl -fsSL https://cosmonic.sh/install.sh)"
 
-echo "export PATH=\"/home/vscode/.cosmo/bin:\${PATH}\"" >> "${HOME}/.bashrc" && source "${HOME}/.bashrc"
+echo "export PATH=\"${HOME}/.cosmo/bin:\${PATH}\"" >> "${HOME}/.bashrc" && source "${HOME}/.bashrc"
