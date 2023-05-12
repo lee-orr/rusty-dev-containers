@@ -14,8 +14,10 @@ To use a feature from this repository, add it to a devcontainer.json. You can re
 | Wasm32-Unknown-Unknown | ghcr.io/lee-orr/rusty-dev-containers/wasm32-unknown-unknown:0 | There already exists a feature for wasm-wasi, but none for wasm32-unknown-unknown, which is useful for building wasm for the browser |
 | Wasm Bindgen CLI | ghcr.io/lee-orr/rusty-dev-containers/wasm-bindgen-cli:0 | Installs the [Wasm Bindgen CLI](https://rustwasm.github.io/wasm-bindgen/reference/cli.html) - a command line tool for generating javascript and typescript bindings for Rust WASM |
 | Cargo Bundle | ghcr.io/lee-orr/rusty-dev-containers/cargo-bundle:0 | Installs [Cargo Bundle](https://github.com/burtonageo/cargo-bundle) - a tool for wrapping rust executables in OS specific bundles/installers (.deb on linux, .app on Mac/iOS, .msi on Windows) |
-| Cargo Nexttest |  ghcr.io/lee-orr/rusty-dev-containers/cargo-nextest:0 | Installs [Cargo Nextest](https://nexte.st/) - a powerful test runner for rust |
 | Cargo Mobile |  ghcr.io/lee-orr/rusty-dev-containers/cargo-mobile:0 | Installs [Cargo Mobile](https://github.com/BrainiumLLC/cargo-mobile) - a tool for building & running rust apps on mobile |
+| Cargo Make |  ghcr.io/lee-orr/rusty-dev-containers/cargo-make:0 | Installs [Cargo Make](https://sagiegurari.github.io/cargo-make/) - a task runner built in rust |
+| Cargo Nexttest |  ghcr.io/lee-orr/rusty-dev-containers/cargo-nextest:0 | Installs [Cargo Nextest](https://nexte.st/) - a powerful test runner for rust |
+
 | | **Terminal Tools** | |
 | Bacon | ghcr.io/lee-orr/rusty-dev-containers/bacon:0 | Intalls [Bacon](https://github.com/Canop/bacon) - a terminal based rust code checker that can watch & run check, flippy, fmt, and tests in the background |
 | Mprocs | ghcr.io/lee-orr/rusty-dev-containers/mprocs:0 | Installs [mprocs](https://github.com/pvolok/mprocs) - a command line tool for running multiple commands in parallel. |
