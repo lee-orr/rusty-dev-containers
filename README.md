@@ -16,10 +16,9 @@ To use a feature from this repository, add it to a devcontainer.json. You can re
 | Cargo Bundle | ghcr.io/lee-orr/rusty-dev-containers/cargo-bundle:0 | Installs [Cargo Bundle](https://github.com/burtonageo/cargo-bundle) - a tool for wrapping rust executables in OS specific bundles/installers (.deb on linux, .app on Mac/iOS, .msi on Windows) |
 | Cargo Mobile |  ghcr.io/lee-orr/rusty-dev-containers/cargo-mobile:0 | Installs [Cargo Mobile](https://github.com/BrainiumLLC/cargo-mobile) - a tool for building & running rust apps on mobile |
 | Cargo Make |  ghcr.io/lee-orr/rusty-dev-containers/cargo-make:0 | Installs [Cargo Make](https://sagiegurari.github.io/cargo-make/) - a task runner built in rust |
-| Cargo Audit |  ghcr.io/lee-orr/rusty-dev-containers/cargo-audit:0 | Installs [Cargo Audit](https://rustsec.org/) - a tool for auditing cargo files for security vaulnerabilities |
-| Cargo Deny |  ghcr.io/lee-orr/rusty-dev-containers/cargo-deny:0 | Installs [Cargo Deny](https://rustsec.org/) - a tool for limit usage of particular dependencies |
+| Cargo Audit | ghcr.io/lee-orr/rusty-dev-containers/cargo-audit:0 | Installs [Cargo Audit](https://rustsec.org/) - a tool for auditing cargo files for security vaulnerabilities |
+| Cargo Deny | ghcr.io/lee-orr/rusty-dev-containers/cargo-deny:0 |  Installs [Cargo Deny](https://rustsec.org/) - a tool for limit usage of particular dependencies |
 | Cargo Nexttest |  ghcr.io/lee-orr/rusty-dev-containers/cargo-nextest:0 | Installs [Cargo Nextest](https://nexte.st/) - a powerful test runner for rust |
-
 | | **Terminal Tools** | |
 | Bacon | ghcr.io/lee-orr/rusty-dev-containers/bacon:0 | Intalls [Bacon](https://github.com/Canop/bacon) - a terminal based rust code checker that can watch & run check, flippy, fmt, and tests in the background |
 | Mprocs | ghcr.io/lee-orr/rusty-dev-containers/mprocs:0 | Installs [mprocs](https://github.com/pvolok/mprocs) - a command line tool for running multiple commands in parallel. |

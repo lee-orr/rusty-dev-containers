@@ -12,3 +12,7 @@ grep -RiIl 'upercase_title' | xargs sed -i "s/upercase_title/$2/g"
 
 cd ../../test/$1
 grep -RiIl 'feature_id' | xargs sed -i "s/feature_id/$1/g"
+
+cd ../../
+
+echo "| $2 | ghcr.io/lee-orr/rusty-dev-containers/$1:0 | $3 |" >> README.md

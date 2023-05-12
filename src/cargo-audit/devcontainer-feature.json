@@ -1,0 +1,12 @@
+{
+    "name": "Cargo Audit",
+    "id": "cargo-audit",
+    "version": "0.0.1",
+    "description": "A feature to install cargo audit",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}
