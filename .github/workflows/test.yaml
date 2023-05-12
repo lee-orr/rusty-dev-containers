@@ -31,6 +31,12 @@ jobs:
           - helix
           - cargo-bundle
           - cargo-mobile
+          - cargo-audit
+          - cargo-make
+          - cargo-deny
+          - cargo-nextest
+          - honggfuzz
+          # NEXT
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -63,7 +69,12 @@ jobs:
           - helix
           - cargo-bundle
           - cargo-mobile
-    steps:
+          - cargo-audit
+          - cargo-make
+          - cargo-deny
+          - cargo-nextest
+          - honggfuzz
+          # NEXT
       - uses: actions/checkout@v3
 
       - name: "Install latest devcontainer CLI"
