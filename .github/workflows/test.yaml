@@ -23,6 +23,7 @@ jobs:
           - zellij
           - fermyon-spin
           - wasmcloud
+          - cosmonic
           - helix
         baseImage:
           - debian:latest
