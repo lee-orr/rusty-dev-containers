@@ -1,13 +1,13 @@
 
-# Wasmcloud (wasmcloud)
+# Cosmonic (cosmonic)
 
-A feature to install Wasmcloud
+A feature to install Cosmonic
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/lee-orr/rusty-dev-containers/wasmcloud:0": {}
+    "ghcr.io/lee-orr/rusty-dev-containers/cosmonic:0": {}
 }
 ```
 
@@ -21,4 +21,4 @@ A feature to install Wasmcloud
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lee-orr/rusty-dev-containers/blob/main/src/wasmcloud/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lee-orr/rusty-dev-containers/blob/main/src/cosmonic/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
