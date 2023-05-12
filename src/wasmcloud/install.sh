@@ -20,5 +20,5 @@ make
 make test
 make install
 
-cargo install wash-cli --git https://github.com/wasmcloud/wash --branch feat/wadm_0.4_support --force
+cargo install wash-cli --git https://github.com/wasmcloud/wash --force
 
