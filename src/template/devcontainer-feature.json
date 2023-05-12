@@ -1,0 +1,12 @@
+{
+    "name": "upercase_title",
+    "id": "feature_id",
+    "version": "0.0.1",
+    "description": "A feature to install lowercase_title",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}
