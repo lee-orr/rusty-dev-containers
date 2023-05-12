@@ -57,6 +57,7 @@ jobs:
           - zellij
           - fermyon-spin
           - wasmcloud
+          - cosmonic
           - helix
     steps:
       - uses: actions/checkout@v3
