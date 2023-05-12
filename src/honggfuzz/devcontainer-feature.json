@@ -1,0 +1,12 @@
+{
+    "name": "Honggfuzz",
+    "id": "honggfuzz",
+    "version": "0.0.1",
+    "description": "A feature to install honggfuzz",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}
