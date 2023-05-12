@@ -29,6 +29,8 @@ jobs:
           - wasmcloud
           - cosmonic
           - helix
+          - cargo-bundle
+          - cargo-mobile
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -59,6 +61,8 @@ jobs:
           - wasmcloud
           - cosmonic
           - helix
+          - cargo-bundle
+          - cargo-mobile
     steps:
       - uses: actions/checkout@v3
 
