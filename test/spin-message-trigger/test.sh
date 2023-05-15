@@ -6,7 +6,7 @@ set -e
 source dev-container-features-test-lib
 
 # Definition specific tests
-#check "installed" spin plugins list | grep "message"
+check "installed" cargo install --list | grep "spin-message-trigger"
 
 # Report result
 reportResults

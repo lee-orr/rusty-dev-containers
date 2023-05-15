@@ -1,0 +1,11 @@
+{
+    "name": "Spin Message Trigger",
+    "id": "spin-message-trigger",
+    "version": "0.0.2",
+    "description": "A feature to install spin message trigger",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/lee-orr/rusty-dev-containers/fermyon-spin"
+    ]
+}

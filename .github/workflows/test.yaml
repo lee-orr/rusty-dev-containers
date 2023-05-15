@@ -36,6 +36,7 @@ jobs:
           - cargo-deny
           - cargo-nextest
           - honggfuzz
+          - spin-message-trigger
           # NEXT
         baseImage:
           - debian:latest
@@ -74,6 +75,7 @@ jobs:
           - cargo-deny
           - cargo-nextest
           - honggfuzz
+          - spin-message-trigger
           # NEXT
     steps:
       - uses: actions/checkout@v3
