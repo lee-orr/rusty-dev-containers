@@ -37,6 +37,7 @@ jobs:
           - cargo-nextest
           - honggfuzz
           - spin-message-trigger
+          - dioxus
           # NEXT
         baseImage:
           - debian:latest
@@ -76,6 +77,7 @@ jobs:
           - cargo-nextest
           - honggfuzz
           - spin-message-trigger
+          - dioxus
           # NEXT
     steps:
       - uses: actions/checkout@v3
