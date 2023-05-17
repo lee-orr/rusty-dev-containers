@@ -4,6 +4,10 @@ A collection of dev container fetaures designed for working with rust in various
 ## Usage
 To use a feature from this repository, add it to a devcontainer.json. You can read more about devcontainer features here: https://containers.dev/features
 
+
+## Compatibility
+Note that all these images depend on having the rust feature set up (`ghcr.io/devcontainers/features/rust:1`), as well as using either `debian:latest` or `ubuntu:latest` as the base image since the default devcontainer image causes issues with permissions.
+
 ## Available Features
 | Feature | OCI Image | Description |
 | - | - | - |
