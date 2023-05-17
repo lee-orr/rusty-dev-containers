@@ -1,13 +1,13 @@
 
-# Cargo Expand (cargo-expand)
+# Tiny Go (no sudo) (tinygo)
 
-A feature to install cargo expand
+A feature to install tiny go (no sudo)
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/lee-orr/rusty-dev-containers/cargo-expand:0": {}
+    "ghcr.io/lee-orr/rusty-dev-containers/tinygo:0": {}
 }
 ```
 
@@ -21,4 +21,4 @@ A feature to install cargo expand
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lee-orr/rusty-dev-containers/blob/main/src/cargo-expand/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lee-orr/rusty-dev-containers/blob/main/src/tinygo/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
