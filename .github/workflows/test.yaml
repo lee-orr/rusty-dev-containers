@@ -38,6 +38,7 @@ jobs:
           - honggfuzz
           - spin-message-trigger
           - dioxus
+          - tinygo
           # NEXT
         baseImage:
           - debian:latest
@@ -78,6 +79,7 @@ jobs:
           - honggfuzz
           - spin-message-trigger
           - dioxus
+          - tinygo
           # NEXT
     steps:
       - uses: actions/checkout@v3

@@ -1,0 +1,12 @@
+{
+    "name": "Tiny Go (no sudo)",
+    "id": "tinygo",
+    "version": "0.0.2",
+    "description": "A feature to install tiny go (no sudo)",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}

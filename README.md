@@ -35,3 +35,5 @@ Helix | ghcr.io/lee-orr/rusty-dev-containers/helix:0 | Installs the [Helix](http
 | Cosmonic | ghcr.io/lee-orr/rusty-dev-containers/cosmonic:0 | Installs Cosmo - the CLI for [Cosmonic](cosmonic.com/) - a PaaS based on Wasmcloud. Note that it contains all the features provided by Wash, but with the capacity to automatically login to your cosmonic account & connect your dev environment to your constellation on their servers. |
 | Spin Message Trigger | ghcr.io/lee-orr/rusty-dev-containers/spin-message-trigger:0 | Installs the [Spin Message Trigger](https://github.com/lee-orr/spin-message-trigger) plugin for Fermyon Spin. Requires the Fermyon Spin feature as well. |
 | Dioxus | ghcr.io/lee-orr/rusty-dev-containers/dioxus:0 | Installs the [Dioxus CLI](https://github.com/DioxusLabs/cli) to enable easy development with the Dioxus framework |
+| | **Other Tools** | |
+| Tiny Go (no sudo) | ghcr.io/lee-orr/rusty-dev-containers/tinygo:0 | Installs Tiny Go without requiring a Sudo. Useful for working with WasmCloud |
