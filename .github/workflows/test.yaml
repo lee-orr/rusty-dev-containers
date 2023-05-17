@@ -43,6 +43,7 @@ jobs:
         baseImage:
           - debian:latest
           - ubuntu:latest
+          - rust:bullseye
     steps:
       - uses: actions/checkout@v3
 
