@@ -39,6 +39,7 @@ jobs:
           - spin-message-trigger
           - dioxus
           - tinygo
+          - cargo-web
           # NEXT
         baseImage:
           - debian:latest
@@ -81,6 +82,7 @@ jobs:
           - spin-message-trigger
           - dioxus
           - tinygo
+          - cargo-web
           # NEXT
     steps:
       - uses: actions/checkout@v3

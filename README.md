@@ -24,6 +24,7 @@ Note that all these images depend on having the rust feature set up (`ghcr.io/de
 | Cargo Deny | ghcr.io/lee-orr/rusty-dev-containers/cargo-deny:0 |  Installs [Cargo Deny](https://rustsec.org/) - a tool for limit usage of particular dependencies |
 | Cargo Nexttest |  ghcr.io/lee-orr/rusty-dev-containers/cargo-nextest:0 | Installs [Cargo Nextest](https://nexte.st/) - a powerful test runner for rust |
 | Honggfuzz | ghcr.io/lee-orr/rusty-dev-containers/honggfuzz:0 | Installs [Honggfuzz](https://github.com/rust-fuzz/honggfuzz-rs/blob/master/README.md) - a security oriented fuzzer |
+| Cargo Web | ghcr.io/lee-orr/rusty-dev-containers/cargo-web:0 | Installs [Cargo Web](https://github.com/koute/cargo-web) - a toolset for client side web |
 | | **Terminal Tools** | |
 | Bacon | ghcr.io/lee-orr/rusty-dev-containers/bacon:0 | Intalls [Bacon](https://github.com/Canop/bacon) - a terminal based rust code checker that can watch & run check, flippy, fmt, and tests in the background |
 | Mprocs | ghcr.io/lee-orr/rusty-dev-containers/mprocs:0 | Installs [mprocs](https://github.com/pvolok/mprocs) - a command line tool for running multiple commands in parallel. |

@@ -1,0 +1,12 @@
+{
+    "name": "Cargo Web",
+    "id": "cargo-web",
+    "version": "0.0.3",
+    "description": "A feature to install cargo web",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}
