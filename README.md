@@ -1,5 +1,5 @@
 # Rusty Dev Containers
-A collection of dev container fetaures designed for working with rust in various contexts.
+A collection of dev container features designed for working with rust in various contexts.
 
 ## Usage
 To use a feature from this repository, add it to a devcontainer.json. You can read more about devcontainer features here: https://containers.dev/features
