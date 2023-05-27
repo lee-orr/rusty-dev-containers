@@ -1,0 +1,12 @@
+{
+    "name": "Wasm Server Runner",
+    "id": "wasm-server-runner",
+    "version": "0.0.3",
+    "description": "A feature to install wasm server runner",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}

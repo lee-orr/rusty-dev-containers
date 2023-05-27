@@ -38,3 +38,4 @@ Helix | ghcr.io/lee-orr/rusty-dev-containers/helix:0 | Installs the [Helix](http
 | Dioxus | ghcr.io/lee-orr/rusty-dev-containers/dioxus:0 | Installs the [Dioxus CLI](https://github.com/DioxusLabs/cli) to enable easy development with the Dioxus framework |
 | | **Other Tools** | |
 | Tiny Go (no sudo) | ghcr.io/lee-orr/rusty-dev-containers/tinygo:0 | Installs Tiny Go without requiring a Sudo. Useful for working with WasmCloud |
+| Wasm Server Runner | ghcr.io/lee-orr/rusty-dev-containers/wasm-server-runner:0 | Installs [Wasm Server Runner](https://github.com/jakobhellermann/wasm-server-runner) - a cargo plugin allowing the use of `cargo run` with wasm32-unknown-unknown projects, and serving those projects |
