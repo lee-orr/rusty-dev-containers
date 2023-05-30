@@ -1,7 +1,7 @@
 {
     "name": "Cargo Audit",
     "id": "cargo-audit",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A feature to install cargo audit",
     "options": {
     },

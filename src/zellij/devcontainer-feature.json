@@ -1,7 +1,7 @@
 {
     "name": "Zellij",
     "id": "zellij",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A feature to install zellij",
     "options": {
     },
