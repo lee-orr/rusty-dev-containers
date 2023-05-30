@@ -13,4 +13,4 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
     cargo install cargo-binstall --locked
 fi
 
-cargo binstall wasm-server-runner --locked -y
+cargo binstall wasm-server-runner -y
