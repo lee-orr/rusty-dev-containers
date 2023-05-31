@@ -1,7 +1,7 @@
 {
     "name": "cargo-mobile",
     "id": "cargo-mobile",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "A feature to install cargo-mobile",
     "options": {
     },

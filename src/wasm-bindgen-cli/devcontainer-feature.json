@@ -1,7 +1,7 @@
 {
     "name": "wasm bindgen cli",
     "id": "wasm-bindgen-cli",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "A feature to install wasm-bingen-cli",
     "options": {
     },
