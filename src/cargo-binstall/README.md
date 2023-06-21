@@ -15,7 +15,7 @@ A feature to install cargo binstall
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-
+| packages | Comma separated list of cargo applications to install. | string | - |
 
 
 
