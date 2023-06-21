@@ -20,4 +20,4 @@ if [ -z "${PACKAGES}" ]; then
     exit 0
 fi
 
-cargo binstall -y --force $CARGO_PACKAGES
+cargo binstall -y --force --locked $CARGO_PACKAGES
