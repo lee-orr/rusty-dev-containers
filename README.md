@@ -12,7 +12,7 @@ Note that all these images depend on having the rust feature set up (`ghcr.io/de
 | Feature | OCI Image | Description |
 | - | - | - |
 | | **Rust Tools** | |
-| Cargo Binstall | ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall:0 | Installs [Cargo Binstall](https://github.com/cargo-bins/cargo-binstall) - an alternative to cargo install that will download binaries if they exist, and only build from source if binaries aren't found |
+| Cargo Binstall | ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall:0 | Installs [Cargo Binstall](https://github.com/cargo-bins/cargo-binstall) - an alternative to cargo install that will download binaries if they exist, and only build from source if binaries aren't found. You can also specify a `packages` option - which is a comma-separated list of cargo applications you want to install. |
 | Cargo Expand | ghcr.io/lee-orr/rusty-dev-containers/cargo-expand:0 | Installs [Cargo Expand](https://github.com/dtolnay/cargo-expand) - a command that prints out the expanded version of a macro, useful when developing macros |
 | Cargo Watch | ghcr.io/lee-orr/rusty-dev-containers/cargo-watch:0 | Installs [Cargo Watch](ghcr.io/lee-orr/rusty-dev-containers/cargo-watch:0) - a command that allows rust to watch for file changes and re-build, re-run tests, or even run arbitrary scripts |
 | Wasm32-Unknown-Unknown | ghcr.io/lee-orr/rusty-dev-containers/wasm32-unknown-unknown:0 | There already exists a feature for wasm-wasi, but none for wasm32-unknown-unknown, which is useful for building wasm for the browser |
