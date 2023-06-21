@@ -1,9 +1,14 @@
 {
     "name": "Cargo Binstall",
     "id": "cargo-binstall",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A feature to install cargo binstall",
     "options": {
+		"packages": {
+			"type": "string",
+			"default": "",
+			"description": "Comma separated list of cargo applications to install."
+		}
     },
     "installsAfter": [
         "ghcr.io/devcontainers/features/rust"
