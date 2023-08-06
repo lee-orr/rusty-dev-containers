@@ -13,7 +13,7 @@ fi
 
 dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 
-cargo install cargo-binstall --locked
+curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
 
 if [ -z "${PACKAGES}" ]; then
     echo "No packages specified, and no upgrade required. Skip installation..."

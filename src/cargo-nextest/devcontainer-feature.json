@@ -1,7 +1,7 @@
 {
     "name": "cargo-nextest",
     "id": "cargo-nextest",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A feature to install cargo-nextest",
     "options": {
     },
