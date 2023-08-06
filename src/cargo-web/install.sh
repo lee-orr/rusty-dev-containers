@@ -10,7 +10,7 @@ fi
 dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 
 if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
-    cargo install cargo-binstall --locked
+    curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
 fi
 
 cargo binstall cargo-web --locked -y
