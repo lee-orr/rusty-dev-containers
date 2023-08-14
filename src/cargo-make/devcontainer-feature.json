@@ -1,7 +1,7 @@
 {
     "name": "cargo-make",
     "id": "cargo-make",
-    "version": "0.0.6",
+    "version": "0.0.8",
     "description": "A feature to install cargo-make",
     "options": {
     },
