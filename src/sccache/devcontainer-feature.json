@@ -1,0 +1,12 @@
+{
+    "name": "sccache",
+    "id": "sccache",
+    "version": "0.0.8",
+    "description": "A feature to install sccache",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}
