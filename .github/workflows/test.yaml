@@ -42,6 +42,7 @@ jobs:
           - cargo-web
           - wasm-server-runner
           - dexterous_developer
+          - rust_windows_msvc
           # NEXT
         baseImage:
           - debian:latest
@@ -87,6 +88,7 @@ jobs:
           - cargo-web
           - wasm-server-runner
           - dexterous_developer
+          - rust_windows_msvc
           # NEXT
     steps:
       - uses: actions/checkout@v3

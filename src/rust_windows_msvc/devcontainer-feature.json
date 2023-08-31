@@ -1,0 +1,12 @@
+{
+    "name": "",
+    "id": "rust_windows_msvc",
+    "version": "0.0.8",
+    "description": "A feature to install xwin & the x86_64-pc-windows-msvc target, allowing cross compilation of windows executables",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "cargo_binstall"
+    ]
+}
