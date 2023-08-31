@@ -15,14 +15,7 @@ A feature to install tiny go (no sudo)
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Specify a version of Tiny Go | string | 0.27,0 |
-
-## Customizations
-
-### VS Code Extensions
-
-- `tinygo.vscode-tinygo`
-- `golang.go`
+| version | Specify a version of Tiny Go | string | 0.0.9 |
 
 
 
