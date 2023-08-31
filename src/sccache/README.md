@@ -1,8 +1,7 @@
+
 # sccache (sccache)
 
 A feature to install sccache
-
-
 
 ## Example Usage
 
@@ -15,8 +14,11 @@ A feature to install sccache
 ## Options
 
 | Options Id | Description | Type | Default Value |
-| ---------- | ----------- | ---- | ------------- |
+|-----|-----|-----|-----|
+
+
+
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lee-orr/rusty-dev-containers/blob/main/src/sccache/devcontainer-feature.json). Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lee-orr/rusty-dev-containers/blob/main/src/sccache/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
