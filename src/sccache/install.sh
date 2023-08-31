@@ -14,3 +14,7 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
 fi
 
 cargo binstall sccache --locked -y
+
+mkdir /.cargo
+echo "[build]" >> /.cargo/config.toml
+echo "rustc-wrapper = \"sccache\"" >> /.cargo/config.toml
