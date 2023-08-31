@@ -26,4 +26,4 @@ echo "rustflags = [" >> /.cargo/config.toml
 echo "  \"-Lnative=/.xwin/crt/lib/x86_64\"," >> /.cargo/config.toml
 echo "  \"-Lnative=/.xwin/sdk/lib/um/x86_64\"," >> /.cargo/config.toml
 echo "  \"-Lnative=/.xwin/sdk/lib/ucrt/x86_64\"" >> /.cargo/config.toml
-echo "]" >> ./cargo/config.toml
+echo "]" >> /.cargo/config.toml
