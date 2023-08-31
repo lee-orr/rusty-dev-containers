@@ -1,12 +1,12 @@
 {
     "name": "Tiny Go (no sudo)",
     "id": "tinygo",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "A feature to install tiny go (no sudo)",
     "options": {
         "version": {
             "type": "string",
-            "default": "0.29.0",
+            "default": "0.0.9",
             "description": "Specify a version of Tiny Go"
         }
     }
