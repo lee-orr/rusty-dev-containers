@@ -6,23 +6,8 @@
     "options": {
         "version": {
             "type": "string",
-            "default": "0.27,0",
+            "default": "0.29.0",
             "description": "Specify a version of Tiny Go"
-        }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/rust",
-        "cargo_binstall"
-    ],
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "tinygo.vscode-tinygo",
-                "golang.go"
-            ],
-            "features": {
-                "ghcr.io/devcontainers/features/go:1": {}
-            }
         }
     }
 }

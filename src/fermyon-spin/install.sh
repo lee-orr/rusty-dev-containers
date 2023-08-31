@@ -16,8 +16,7 @@ dpkg -l | grep "ii  git" || (apt update && apt install git -y -qq)
 rustup target add wasm32-unknown-unknown
 rustup target add wasm32-wasi
 
-git clone https://github.com/fermyon/spin
-cd ./spin
-cargo install --locked --path ./
+curl -fsSL https://developer.fermyon.com/downloads/install.sh | bash
+cp spin /usr/local/bin/
 
 spin plugins install --url https://github.com/itowlson/spin-pluginify/releases/download/canary/pluginify.json --yes
