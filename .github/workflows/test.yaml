@@ -38,11 +38,11 @@ jobs:
           - honggfuzz
           - spin-message-trigger
           - dioxus
-          - tinygo
           - cargo-web
           - wasm-server-runner
           - dexterous_developer
           - rust_windows_msvc
+          - sccache
           # NEXT
         baseImage:
           - debian:latest
@@ -84,11 +84,11 @@ jobs:
           - honggfuzz
           - spin-message-trigger
           - dioxus
-          - tinygo
           - cargo-web
           - wasm-server-runner
           - dexterous_developer
           - rust_windows_msvc
+          - sccache
           # NEXT
     steps:
       - uses: actions/checkout@v3

@@ -38,7 +38,11 @@ Helix | ghcr.io/lee-orr/rusty-dev-containers/helix:0 | Installs the [Helix](http
 | Spin Message Trigger | ghcr.io/lee-orr/rusty-dev-containers/spin-message-trigger:0 | Installs the [Spin Message Trigger](https://github.com/lee-orr/spin-message-trigger) plugin for Fermyon Spin. Requires the Fermyon Spin feature as well. |
 | Dioxus | ghcr.io/lee-orr/rusty-dev-containers/dioxus:0 | Installs the [Dioxus CLI](https://github.com/DioxusLabs/cli) to enable easy development with the Dioxus framework |
 | | **Other Tools** | |
-| Tiny Go (no sudo) | ghcr.io/lee-orr/rusty-dev-containers/tinygo:0 | Installs Tiny Go without requiring a Sudo. Useful for working with WasmCloud |
 | Wasm Server Runner | ghcr.io/lee-orr/rusty-dev-containers/wasm-server-runner:0 | Installs [Wasm Server Runner](https://github.com/jakobhellermann/wasm-server-runner) - a cargo plugin allowing the use of `cargo run` with wasm32-unknown-unknown projects, and serving those projects |
 | Dexterous Developer | ghcr.io/lee-orr/rusty-dev-containers/dexterous_developer:0 | [Dexterous Developer](https://github.com/lee-orr/dexterous_developer) is a Hot Reload system for the bevy game engine |
 | Rust Windows MSVC | ghcr.io/lee-orr/rusty-dev-containers/rust_windows_msvc:0 | Sets up rust to be able to compile x86_64-pc-windows-msvc binaries from a dev container, using xwin. Note that xwin relies on you accepting this Microsoft Software License: https://visualstudio.microsoft.com/license-terms/mlt031519/ |
+
+
+## Deprecated
+
+| Tiny Go (no sudo) | ghcr.io/lee-orr/rusty-dev-containers/tinygo:0 | Installs Tiny Go without requiring a Sudo. Useful for working with WasmCloud | Please replace with: ghcr.io/devcontainers-community/features/tinygo from https://github.com/devcontainers-community/features-tinygo |
