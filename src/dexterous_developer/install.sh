@@ -8,6 +8,8 @@ if ! (which rustup > /dev/null && which cargo > /dev/null); then
 fi
 
 dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
+dpkg -l | grep libssl-dev || (apt update && apt install libssl-dev -y -qq)
+dpkg -l | grep pkg-config || (apt update && apt install pkg-config -y -qq)
 
 if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
     curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
