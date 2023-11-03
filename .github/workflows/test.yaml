@@ -48,6 +48,13 @@ jobs:
           - debian:latest
           - ubuntu:latest
           - rust:bookworm
+          - mcr.microsoft.com/devcontainers/base:ubuntu
+          - mcr.microsoft.com/devcontainers/base:bullseye
+          - mcr.microsoft.com/devcontainers/base:bookworm
+          - mcr.microsoft.com/devcontainers/rust:bullseye
+          # the default image suggested by ghcr.io/devcontainers/templates/rust
+          - mcr.microsoft.com/devcontainers/rust:1-1-bullseye
+          - mcr.microsoft.com/devcontainers/rust:bookworm
     steps:
       - uses: actions/checkout@v3
 
