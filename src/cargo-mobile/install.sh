@@ -9,4 +9,5 @@ fi
 
 dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 
+umask 002
 cargo install --git https://github.com/BrainiumLLC/cargo-mobile

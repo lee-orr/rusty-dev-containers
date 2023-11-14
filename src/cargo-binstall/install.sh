@@ -20,4 +20,5 @@ if [ -z "${PACKAGES}" ]; then
     exit 0
 fi
 
+umask 002
 cargo binstall -y --force --locked $CARGO_PACKAGES

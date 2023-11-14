@@ -20,5 +20,6 @@ make
 make test
 make install
 
+umask 002
 cargo install wash-cli --git https://github.com/wasmcloud/wash --force
 

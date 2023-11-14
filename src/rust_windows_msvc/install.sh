@@ -14,6 +14,7 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
 fi
 
 rustup target add x86_64-pc-windows-msvc
+umask 002
 cargo install xwin
 
 xwin --accept-license splat --output /.xwin

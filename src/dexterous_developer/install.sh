@@ -17,6 +17,7 @@ fi
 
 apt install -y g++ pkg-config libx11-dev libasound2-dev libudev-dev libwayland-dev libxkbcommon-dev clang lld mold
 
+umask 002
 cargo binstall dexterous_developer_cli --locked -y
 
 rustup default nightly
