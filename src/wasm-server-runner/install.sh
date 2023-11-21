@@ -9,4 +9,5 @@ fi
 
 dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 
+umask 002
 cargo install wasm-server-runner -f

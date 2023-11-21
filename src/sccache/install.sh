@@ -13,6 +13,7 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
     curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
 fi
 
+umask 002
 cargo binstall sccache --locked -y
 
 mkdir /.cargo

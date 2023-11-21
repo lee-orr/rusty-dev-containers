@@ -14,4 +14,5 @@ dpkg -l | grep "ii  git" || (apt update && apt install git -y -qq)
 
 git clone https://github.com/helix-editor/helix
 cd helix
+umask 002
 cargo install --path helix-term --locked
