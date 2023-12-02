@@ -7,6 +7,6 @@
     },
     "installsAfter": [
         "ghcr.io/devcontainers/features/rust",
-        "cargo_binstall"
+        "ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall"
     ]
 }
