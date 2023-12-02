@@ -1,7 +1,7 @@
 {
     "name": "Rust Windows MSVC",
     "id": "rust_windows_msvc",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "description": "A feature to install xwin & the x86_64-pc-windows-msvc target, allowing cross compilation of windows executables",
     "options": {
     },
