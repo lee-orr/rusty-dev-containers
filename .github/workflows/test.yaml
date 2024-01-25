@@ -43,6 +43,7 @@ jobs:
           - dexterous_developer
           - rust_windows_msvc
           - sccache
+          - cargo-llvm-cov
           # NEXT
         baseImage:
           - debian:latest
@@ -89,6 +90,7 @@ jobs:
           - dexterous_developer
           - rust_windows_msvc
           - sccache
+          - cargo-llvm-cov
           # NEXT
     steps:
       - uses: actions/checkout@v3
