@@ -1,7 +1,7 @@
 {
     "name": "Spin Message Trigger",
     "id": "spin-message-trigger",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A feature to install spin message trigger",
     "options": {
     },
