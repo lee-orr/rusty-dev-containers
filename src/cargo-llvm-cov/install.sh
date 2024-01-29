@@ -14,4 +14,4 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
 fi
 
 umask 002
-cargo binstall feature_id --locked -y
+cargo binstall cargo-llvm-cov --locked -y
