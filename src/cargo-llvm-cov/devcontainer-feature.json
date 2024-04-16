@@ -1,7 +1,7 @@
 {
   "name": "Cargo LLVM Cov",
   "id": "cargo-llvm-cov",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A feature to install cargo-llvm-cov",
   "options": {},
   "installsAfter": ["ghcr.io/devcontainers/features/rust", "ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall"]
