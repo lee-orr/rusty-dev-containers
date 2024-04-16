@@ -1,7 +1,7 @@
 {
     "name": "upercase_title",
     "id": "feature_id",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "A feature to install lowercase_title",
     "options": {
     },

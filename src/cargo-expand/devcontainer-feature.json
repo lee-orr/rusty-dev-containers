@@ -1,7 +1,7 @@
 {
     "name": "Cargo Expand",
     "id": "cargo-expand",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "A feature to install cargo expand",
     "options": {
     },
