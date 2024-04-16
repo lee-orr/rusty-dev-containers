@@ -1,7 +1,7 @@
 {
     "name": "Wasm Server Runner",
     "id": "wasm-server-runner",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "A feature to install wasm server runner",
     "options": {
     },
