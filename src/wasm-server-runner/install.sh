@@ -14,6 +14,6 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
 fi
 
 umask 002
-if !cargo binstall  wasm-server-runner -f  -y > /dev/null; then {
+if !cargo binstall  wasm-server-runner -f  -y > /dev/null; then
     cargo install  wasm-server-runner -f 
-}
+fi

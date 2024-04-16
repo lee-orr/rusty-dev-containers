@@ -20,6 +20,6 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
 fi
 
 umask 002
-if !cargo binstall  dioxus-cli --locked  -y > /dev/null; then {
+if !cargo binstall  dioxus-cli --locked  -y > /dev/null; then
     cargo install  dioxus-cli --locked 
-}
+fi

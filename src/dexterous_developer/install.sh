@@ -20,8 +20,8 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
 fi
 
 umask 002
-if !cargo binstall  dexterous_developer_cli --locked  -y > /dev/null; then {
+if !cargo binstall  dexterous_developer_cli --locked  -y > /dev/null; then
     cargo install  dexterous_developer_cli --locked 
-}
+fi
 
 rustup default nightly

@@ -17,16 +17,6 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
 fi
 
 umask 002
-if !cargo binstall cargo-audit --locked  -y > /dev/null; then {
+if !cargo binstall cargo-audit --locked  -y > /dev/null; then
     cargo install cargo-audit --locked 
-}ked  -y > /dev/null; then {
-    cargo install cargo-audit --locked 
-}ked  -y > /dev/null; then {
-    cargo install cargo-audit --locked 
-}ked  -y > /dev/null; then {
-    cargo install cargo-audit --locked 
-}ked  -y > /dev/null; then {
-    cargo install cargo-audit --locked 
-}ked  -y > /dev/null; then {
-    cargo install cargo-audit --locked 
-}
+fi

@@ -16,9 +16,9 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
 fi
 
 umask 002
-if !cargo binstall  sccache --locked  -y > /dev/null; then {
+if !cargo binstall  sccache --locked  -y > /dev/null; then
     cargo install  sccache --locked 
-}
+fi
 
 mkdir /.cargo
 echo "[build]" >> /.cargo/config.toml
