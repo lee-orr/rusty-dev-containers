@@ -11,7 +11,7 @@ if ! (which rustup > /dev/null && which cargo > /dev/null); then
     source $HOME/.cargo/env
 fi
 
-dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
+dpkg -l | grep build-essential || (apt update && apt install build-essential libbrotli1 libmbedtls12 -y -qq)
 
 cargo install cargo-binstall
 
