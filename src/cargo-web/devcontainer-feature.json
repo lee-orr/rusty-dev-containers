@@ -1,7 +1,7 @@
 {
     "name": "Cargo Web",
     "id": "cargo-web",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "A feature to install cargo web",
     "options": {
     },

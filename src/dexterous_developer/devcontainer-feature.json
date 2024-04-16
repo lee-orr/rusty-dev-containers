@@ -1,7 +1,7 @@
 {
     "name": "Dexterous Developer",
     "id": "dexterous_developer",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "A feature to install the dexterous_developer cli, a hot reload system for the bevy game engine, as well as the dependencies for compiling bevy on linux.",
     "options": {
     },
