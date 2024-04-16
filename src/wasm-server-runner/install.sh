@@ -9,5 +9,11 @@ fi
 
 dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 
+if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
+    cargo install cargo-binstall
+fi
+
 umask 002
-cargo install wasm-server-runner -f
+if !cargo binstall  wasm-server-runner -f  -y > /dev/null; then {
+    cargo install  wasm-server-runner -f 
+}

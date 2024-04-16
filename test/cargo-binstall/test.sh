@@ -8,7 +8,9 @@ source dev-container-features-test-lib
 # Definition specific tests
 check "installed" cargo install --list | grep "cargo-binstall"
 
-cargo install --locked mprocs -y
+if !cargo binstall  --locked mprocs  -y > /dev/null; then {
+    cargo install  --locked mprocs 
+}
 
 check "installed" cargo install --list  | grep "mprocs"
 

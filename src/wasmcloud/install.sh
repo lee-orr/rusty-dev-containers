@@ -20,6 +20,10 @@ make
 make test
 make install
 
+if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
+    cargo install cargo-binstall
+fi
+
 umask 002
 cargo install wash-cli --git https://github.com/wasmcloud/wash --force
 

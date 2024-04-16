@@ -12,5 +12,21 @@ dpkg -l | grep libssl3 || (apt update && apt install libssl3 libssl-dev -y -qq)
 
 
 
+if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
+    cargo install cargo-binstall
+fi
+
 umask 002
-cargo installcargo-audit --locked -y
+if !cargo binstall cargo-audit --locked  -y > /dev/null; then {
+    cargo install cargo-audit --locked 
+}ked  -y > /dev/null; then {
+    cargo install cargo-audit --locked 
+}ked  -y > /dev/null; then {
+    cargo install cargo-audit --locked 
+}ked  -y > /dev/null; then {
+    cargo install cargo-audit --locked 
+}ked  -y > /dev/null; then {
+    cargo install cargo-audit --locked 
+}ked  -y > /dev/null; then {
+    cargo install cargo-audit --locked 
+}

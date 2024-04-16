@@ -11,5 +11,11 @@ dpkg -l | grep build-essential || (apt update && apt install build-essential -y 
 
 
 
+if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
+    cargo install cargo-binstall
+fi
+
 umask 002
-cargo install feature_id --locked -y
+if !cargo binstall  feature_id --locked  -y > /dev/null; then {
+    cargo install  feature_id --locked 
+}

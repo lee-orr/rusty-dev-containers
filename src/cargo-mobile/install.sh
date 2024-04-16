@@ -9,5 +9,13 @@ fi
 
 dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 
+if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
+    cargo install cargo-binstall
+fi
+
+if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
+    cargo install cargo-binstall
+fi
+
 umask 002
 cargo install --git https://github.com/BrainiumLLC/cargo-mobile

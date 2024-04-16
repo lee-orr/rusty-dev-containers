@@ -15,7 +15,13 @@ dpkg -l | grep pkg-config || (apt update && apt install pkg-config -y -qq)
 
 apt install -y g++ pkg-config libx11-dev libasound2-dev libudev-dev libwayland-dev libxkbcommon-dev clang lld mold
 
+if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
+    cargo install cargo-binstall
+fi
+
 umask 002
-cargo install dexterous_developer_cli --locked -y
+if !cargo binstall  dexterous_developer_cli --locked  -y > /dev/null; then {
+    cargo install  dexterous_developer_cli --locked 
+}
 
 rustup default nightly

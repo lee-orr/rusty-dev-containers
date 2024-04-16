@@ -11,5 +11,11 @@ dpkg -l | grep build-essential || (apt update && apt install build-essential -y 
 
 
 
+if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
+    cargo install cargo-binstall
+fi
+
 umask 002
-cargo install wasm-bindgen-cli --locked -y
+if !cargo binstall  wasm-bindgen-cli --locked  -y > /dev/null; then {
+    cargo install  wasm-bindgen-cli --locked 
+}
