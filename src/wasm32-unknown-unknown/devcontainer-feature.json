@@ -1,7 +1,7 @@
 {
     "name": "Rust wasm32_unknown_unknown",
     "id": "wasm32-unknown-unknown",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "A feature to install wasm32_unknown_unknown",
     "options": {
     },

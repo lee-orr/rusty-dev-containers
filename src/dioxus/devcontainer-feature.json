@@ -1,7 +1,7 @@
 {
     "name": "Dioxus",
     "id": "dioxus",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "A feature to install dioxus",
     "options": {
     },
