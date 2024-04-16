@@ -7,17 +7,15 @@ if ! (which rustup > /dev/null && which cargo > /dev/null); then
     source $HOME/.cargo/env
 fi
 
-dpkg -l | grep build-essential || (apt update && apt install build-essential libbrotli1 libmbedtls12 -y -qq)
+dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 dpkg -l | grep libssl-dev || (apt update && apt install libssl-dev -y -qq)
 dpkg -l | grep pkg-config || (apt update && apt install pkg-config -y -qq)
 
-if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
-    cargo install cargo-binstall
-fi
+
 
 apt install -y g++ pkg-config libx11-dev libasound2-dev libudev-dev libwayland-dev libxkbcommon-dev clang lld mold
 
 umask 002
-cargo binstall dexterous_developer_cli --locked -y
+cargo install dexterous_developer_cli --locked -y
 
 rustup default nightly

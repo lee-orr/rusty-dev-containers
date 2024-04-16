@@ -9,7 +9,7 @@ if ! which rustup > /dev/null; then
     source $HOME/.cargo/env
 fi
 
-dpkg -l | grep build-essential || (apt update && apt install build-essential libbrotli1 libmbedtls12 -y -qq)
+dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 dpkg -l | grep libssl-dev || (apt update && apt install libssl-dev -y -qq)
 dpkg -l | grep pkg-config || (apt update && apt install pkg-config -y -qq)
 dpkg -l | grep "ii  git" || (apt update && apt install git -y -qq)

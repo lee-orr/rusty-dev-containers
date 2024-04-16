@@ -7,12 +7,10 @@ if ! (which rustup > /dev/null && which cargo > /dev/null); then
     source $HOME/.cargo/env
 fi
 
-dpkg -l | grep build-essential || (apt update && apt install build-essential libbrotli1 libmbedtls12 -y -qq)
+dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 dpkg -l | grep libssl3 || (apt update && apt install libssl3 libssl-dev -y -qq)
 
-if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
-    cargo install cargo-binstall
-fi
+
 
 umask 002
-cargo binstall cargo-audit --locked -y
+cargo installcargo-audit --locked -y
