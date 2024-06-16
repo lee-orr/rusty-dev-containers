@@ -9,15 +9,15 @@ fi
 
 dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 
-
-
 rustup target add x86_64-pc-windows-msvc
-if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
-    cargo install cargo-binstall
-fi
 
 umask 002
-cargo install xwin
+
+if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
+    cargo install xwin
+else
+    cargo binstall xwin
+fi
 
 xwin --accept-license splat --output /.xwin
 
